@@ -1,0 +1,30 @@
+{
+  "runId": "run-0001",
+  "network": "base-sepolia",
+  "chainId": 84532,
+  "startedAt": "2026-01-13T00:00:00Z",
+  "finishedAt": "2026-01-13T00:00:02Z",
+  "status": "ok",
+  "summary": {
+    "targetsChecked": 3,
+    "rpcUsed": "primary",
+    "feeSamplesPulled": 40,
+    "notes": "Read-only fee snapshot generated successfully."
+  },
+  "fees": {
+    "latestBaseFeeGwei": 0.02,
+    "latestPriorityFeeGwei": {
+      "p10": 0.001,
+      "p50": 0.002,
+      "p90": 0.004
+    },
+    "blockRange": {
+      "count": 40,
+      "fromBlock": 0,
+      "toBlock": 0
+    }
+  },
+  "links": {
+    "explorer": "https://sepolia.basescan.org"
+  }
+}
