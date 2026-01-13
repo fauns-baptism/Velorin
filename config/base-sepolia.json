@@ -1,0 +1,36 @@
+{
+  "network": "base-sepolia",
+  "chainId": 84532,
+  "explorer": {
+    "name": "BaseScan (Sepolia)",
+    "baseUrl": "https://sepolia.basescan.org"
+  },
+  "rpc": {
+    "primary": "https://sepolia.base.org",
+    "fallbacks": [
+      "https://base-sepolia-rpc.publicnode.com"
+    ],
+    "timeoutMs": 12000,
+    "retries": 2
+  },
+  "sampling": {
+    "feeHistoryBlocks": 40,
+    "feeHistoryPercentiles": [10, 25, 50, 75, 90],
+    "pollIntervalMs": 30000,
+    "maxSamplesToKeep": 500
+  },
+  "output": {
+    "reportsPath": "reports/latest.json",
+    "logsPath": "logs/run.log",
+    "snapshotPath": "snapshots/fee-history.snapshot.json"
+  },
+  "safety": {
+    "readOnly": true,
+    "sendTransactions": false,
+    "signingRequired": false
+  },
+  "metadata": {
+    "builtFor": "Base",
+    "notes": "Base Sepolia only. Use for monitoring and reporting."
+  }
+}
