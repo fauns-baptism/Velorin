@@ -1,0 +1,30 @@
+{
+  "name": "velorin",
+  "version": "0.1.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "inspect": "node app/Velorin.mjs",
+    "clean": "rimraf node_modules dist .cache"
+  },
+  "dependencies": {
+    "@coinbase/wallet-sdk": "github:coinbase/coinbase-wallet-sdk",
+    "@coinbase/onchainkit": "github:coinbase/onchainkit",
+    "@coinbase/cdp-sdk": "github:coinbase/cdp-sdk",
+    "@coinbase/agentkit": "github:coinbase/agentkit",
+    "@coinbase/coinbase-wallet-sdk": "github:coinbase/coinbase-wallet-sdk",
+    "@coinbase/smart-wallet": "github:coinbase/smart-wallet",
+    "@base-org/account-sdk": "github:base-org/account-sdk",
+    "@base-org/node": "github:base-org/node",
+    "@base-org/docs": "github:base-org/docs",
+    "viem": "^2.21.0",
+    "ethers": "^6.13.4",
+    "web3": "^4.12.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.9.0",
+    "rimraf": "^6.0.1"
+  }
+}
