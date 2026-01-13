@@ -1,0 +1,8 @@
+[2026-01-13T00:00:00Z] Velorin start - network=base-sepolia chainId=84532 readOnly=true
+[2026-01-13T00:00:00Z] RPC selected: primary (timeout=12000ms retries=2)
+[2026-01-13T00:00:01Z] Fetching feeHistory: blocks=40 percentiles=10,25,50,75,90
+[2026-01-13T00:00:01Z] Fee history received - samples=40
+[2026-01-13T00:00:02Z] Checking targets: total=3
+[2026-01-13T00:00:02Z] Report written: reports/latest.json
+[2026-01-13T00:00:02Z] Snapshot updated: snapshots/fee-history.snapshot.json
+[2026-01-13T00:00:02Z] Velorin finished - status=ok
